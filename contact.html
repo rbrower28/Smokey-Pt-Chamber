@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Smokey Point Chamber of Commerce ~ Contact Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content= "Contact page for the Smokey Point Chamber of Commerce." />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
+  </head>
+
+<body>
+  <header>
+    <div id="nav-top">
+      <a href="index.html"><img id="logo" src="images/icons/smokeypoint_logo.webp" alt="Logo for the chamber of commerce" /></a>
+      <nav>
+        <ul id="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="join.html">Join Now!</a></li>
+          <li class="large"><a href="discover.html">Discover</a></li>
+          <li class="large"><a href="directory.html">Directory</a></li>
+          <li class="large"><a href="contact.html">Contact Us</a></li>
+          <li class="large">
+            <a href="https://www.facebook.com" class="social"><img src="images/icons/facebook.webp" alt="the link to facebook" /></a>
+            <a href="https://www.instagram.com" class="social"><img src="images/icons/instagram.webp" alt="the link to instagram" /></a>
+          </li>
+          <li class="large" id="date"></li>
+        </ul>
+        <button id="stack-top">&#9776;</button>
+      </nav>
+    </div>
+    <nav id="lower" class="hidden">
+      <ul id="lower-nav" class="hidden">
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li>
+          <a href="https://www.facebook.com" class="social"><img src="images/icons/facebook.webp" alt="the link to facebook" /></a>
+          <a href="https://www.instagram.com" class="social"><img src="images/icons/instagram.webp" alt="the link to instagram" /></a>
+        </li>
+      </ul>
+      <p id="date2" class="hidden"></p>
+      <button id="stack-bottom" class="hidden">x</button>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="directoryTitle">Get in contact with us!</h1>
+    <div class="contactHolder">
+      <section class="contactInfo">
+        <h3>Smokey Point Chamber of Commerce</h3>
+        <p>123 State Ave NW</p>
+        <p>Arlington, WA 98223</p>
+        <p>info@smokeyptcc.org</p>
+        <p>+1 (360) 555-6789</p>
+        <h3>Hours:</h3>
+        <ul>
+          <li>Mon - 10:00 to 6:00</li>
+          <li>Tue - 10:00 to 6:00</li>
+          <li>Wed - 10:00 to 6:00</li>
+          <li>Thur - 10:00 to 6:00</li>
+          <li>Fri - 10:00 to 6:00</li>
+          <li>Sat - 10:00 to 2:00</li>
+          <li>Sun - Closed</li>
+        </ul>
+      </section>
+      <section class="contactForm">
+        <form method="get" action="thankyou.html">
+          <label class="top">First and Last Name* <input type="text" name="fname" required></label>
+          <label class="top">Email* <input type="email" name="email" required></label>
+          <label class="top">Inquiry<textarea name="inquiry" id="inquiry"></textarea></label>
+          <input type="submit" value="Send" class="submitBtn" id="submit">
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div id="main-footer">
+      <img id="logo-footer" src="images/icons/smokeypoint_logo.webp" alt="Logo for the chamber of commerce" />
+      <div id="first-footer">
+        <h3>Smokey Point Chamber of Commerce</h3>
+        <p>123 State Ave NW</p>
+        <p>Arlington, WA 98223</p>
+      </div>
+      <div id="second-footer">
+        <p>info@smokeyptcc.org</p>
+        <p>+1 (360) 555-6789</p>
+        <p>Weather: <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+      </div>
+    </div>
+
+    <div id="base-footer">
+      <p>&copy;<span id="year"></span> Smokey Point Chamber | Ryan Brower | WDD230 Project | Last Updated: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/dates.js"></script>
+  <script src="js/hamburger.js"></script>
+</body>
+
+</html>

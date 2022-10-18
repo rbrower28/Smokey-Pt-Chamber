@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Smokey Point Chamber of Commerce ~ Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content= "Homepage for the Smokey Point Chamber of Commerce, and home to all links and vital information pertaining to the organization." />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
+  </head>
+
+<body>
+  <header>
+    <div id="nav-top">
+      <a href="index.html"><img id="logo" src="images/icons/smokeypoint_logo.webp" alt="Logo for the chamber of commerce" /></a>
+      <nav>
+        <ul id="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="join.html">Join Now!</a></li>
+          <li class="large"><a href="discover.html">Discover</a></li>
+          <li class="large"><a href="directory.html">Directory</a></li>
+          <li class="large"><a href="contact.html">Contact Us</a></li>
+          <li class="large">
+            <a href="https://www.facebook.com" class="social"><img src="images/icons/facebook.webp" alt="the link to facebook" /></a>
+            <a href="https://www.instagram.com" class="social"><img src="images/icons/instagram.webp" alt="the link to instagram" /></a>
+          </li>
+          <li class="large" id="date"></li>
+        </ul>
+        <button id="stack-top">&#9776;</button>
+      </nav>
+    </div>
+    <nav id="lower" class="hidden">
+      <ul id="lower-nav" class="hidden">
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li>
+          <a href="https://www.facebook.com" class="social"><img src="images/icons/facebook.webp" alt="the link to facebook" /></a>
+          <a href="https://www.instagram.com" class="social"><img src="images/icons/instagram.webp" alt="the link to instagram" /></a>
+        </li>
+      </ul>
+      <p id="date2" class="hidden"></p>
+      <button id="stack-bottom" class="hidden">x</button>
+    </nav>
+  </header>
+
+  <main id="index">
+    <section id="banner">
+      <h1 id="main-heading">Welcome to Smokey Point</h1>
+      <a href="join.html" class="join button" id="join">Join Now!</a>
+    </section>
+
+    <section id="news">
+      <h2>-- News --</h2>
+      <h4 class="heading">Mirkwood Pub Paint Night</h4>
+      <p>Enjoy a few drinks, delicious food and socialize while creating a masterpiece!</p>
+      <h4 class="heading">Marysville Strawberry Festival</h4>
+      <p>Participate in our berry runs, carnivals, and tons of entertainment, and meet your local strawberry royalty!</p>
+    </section>
+
+    <section id="showcase">
+      <h3>Meet Local Businesses!</h3>
+      <div id="bus1">
+        <h4 class="heading">Blue Bird Cafe</h4>
+        <p>A local american diner, family owned since 1958.</p>
+        <p>Located on Olympic Ave.</p>
+        <a class="more" href="#">See More...</a>
+      </div>
+      <div id="bus2">
+        <h4 class="heading">Ellie's at the Airport</h4>
+        <p>Family Style Restaurant with a view of the runway.</p>
+        <p>East of the Arlington Airport.</p>
+      </div>
+      <div id="bus3">
+        <h4 class="heading">Country Burger</h4>
+        <p>Gourmet burgers and shakes with a local feel.</p>
+        <p>Off of Lakewood Road.</p>
+      </div>
+    </section>
+
+    <section id="events">
+      <h3>See What's Happening!</h3>
+
+      <div id="event1">
+        <h6 id="eventdate1">1 Jan</h6>
+        <p>Chamber Meeting - 7pm</p>
+      </div>
+      <div id="event2">
+        <h6 id="eventdate2">2 Jan</h6>
+        <p>Open House - 6pm</p>
+      </div>
+      <div id="event3">
+        <h6 id="eventdate3">7 Jan</h6>
+        <p>Chamber Meeting - 7pm</p>
+      </div>
+      <div id="event4">
+        <h6 id="eventdate4">9 Jan</h6>
+        <p>Business Lunch - 11am</p>
+      </div>
+      <div id="event5">
+        <h6 id="eventdate5">11 Jan</h6>
+        <p><em>Tim's</em> Grand Opening</p>
+      </div>
+      <div id="event6">
+        <h6 id="eventdate6">15 Jan</h6>
+        <p>Chamber Meeting - 7pm</p>
+      </div>
+
+    </section>
+    
+    <section id="join-now">
+      <a href="join.html" class="join" id="join2">Join Us Now!</a>
+    </section>
+
+    <section id="weather">
+      <h2>It Is Currently...</h2>
+      <img id="w_img" src="./images/icons/cloudy.webp" alt="an icon indicating a cloudy day" />
+
+      <div class="temp">
+        <span id="temp"></span>
+        <span id="temp_label">°F</span>
+      </div>
+
+      <h4 id="conditions">cloudy</h4>
+
+      <div class="label">
+        <p>Wind Speed:</p>
+        <p>Wind Chill:</p>
+      </div>
+
+      <div class="data">
+        <p><span id="w_speed"></span> mph</p>
+        <p id="w_chill"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="main-footer">
+      <img id="logo-footer" src="images/icons/smokeypoint_logo.webp" alt="Logo for the chamber of commerce" />
+      <div id="first-footer">
+        <h3>Smokey Point Chamber of Commerce</h3>
+        <p>123 State Ave NW</p>
+        <p>Arlington, WA 98223</p>
+      </div>
+      <div id="second-footer">
+        <p>info@smokeyptcc.org</p>
+        <p>+1 (360) 555-6789</p>
+        <p>Weather: <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+      </div>
+    </div>
+
+    <div id="base-footer">
+      <p>&copy;<span id="year"></span> Smokey Point Chamber | Ryan Brower | WDD230 Project | Last Updated: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+
+  <script src="js/dates.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/hamburger.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>
